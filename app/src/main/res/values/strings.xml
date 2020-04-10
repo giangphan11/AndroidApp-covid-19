@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+    <string name="map2_name">Danh sách quốc gia</string>
+    <string name="man_tt_chinh_phu">Thông tin</string>
+    <string name="gioi_thieu">Giới thiệu</string>
+    <string name="detail_quoc_gia">Chi tiết</string>
+</resources>

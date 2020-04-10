@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/mnuDanhSach"
+    android:title="Danh sách quốc gia"/>
+    <item android:id="@+id/mnuAbout"
+    android:title="Giới thiệu"/>
+    <item android:title="Thông tin"
+        android:id="@+id/mnuThongTin"/>
+    <item android:title="Thay ảnh nền"
+        android:id="@+id/mnuThayAnhNen"/>
+    <item android:id="@+id/mnuExit"
+        android:title="Thoát"/>
+</menu>

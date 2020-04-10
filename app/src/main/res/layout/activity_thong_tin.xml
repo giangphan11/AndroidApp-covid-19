@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F3E3E"
+    android:orientation="vertical"
+    tools:context=".ThongTinActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GIỚI THIỆU"
+                android:textAlignment="center"
+                android:textColor="#FFEB3B"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="10dp"
+                android:text="Đây là ứng dụng cập nhật thời gian thực số liệu chủng virus COV-19, chỉ cần mở phần mềm lên là ứng dụng tự động cập nhật số liệu 24/24 chính xác từ thông tin Bộ Y Tế cập nhật"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Developed by GiangPhan"
+                android:textColor="#8BC34A" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="API from ManhTuan- J2Team"
+                android:textColor="#8BC34A" />
+
+            <ImageView
+                android:id="@+id/imgHinhTT"
+                android:layout_width="match_parent"
+                android:layout_height="214dp"
+                app:srcCompat="@color/colorAccent" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

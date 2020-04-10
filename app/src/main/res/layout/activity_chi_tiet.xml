@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1F2629"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTenQGTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dominican Republic"
+        android:textAlignment="center"
+        android:textColor="#AEB3D5"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="*"
+        android:textAlignment="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Nhiễm:"
+                android:textAlignment="textStart"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtNhiemTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="215,362"
+                android:textColor="#FFC107"
+                android:textSize="18sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Bình phục:"
+                android:textAlignment="textStart"
+                android:textColor="#2994B2"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtBPTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19,175"
+                android:textColor="#2994B2"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Tử vong:"
+                android:textAlignment="textStart"
+                android:textColor="#F72459"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtTVTT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13,115"
+                android:textColor="#F72459"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
